@@ -389,3 +389,206 @@ footer p {
 }
 
 
+/*************************
+	   MEDIA QUERIES
+*************************/
+
+/* start max-width 1200px */
+@media screen and (max-width: 1200px) {
+	.meet, 
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.arrow-right,
+	#customers > img {
+		display: none;
+	}	
+
+	header,
+	section {
+		width: 90%;
+	}
+
+	header h1 {
+		font-size: 42px;
+		line-height: 42px;
+		margin: 0 5%;
+	}
+
+	#customers h1,
+	#manifesto h1,
+	#rework h1,
+	#offerings h1 {
+		font-size: 32px;
+		line-height: 32px;
+	}
+
+	#products div:first-child {
+    	margin-left: 10%; 
+	}
+
+	#customers h1 {
+		padding: 0 0 20px 0;
+	}
+
+	#manifesto,
+	#manifesto .column, #manifesto .column-end {
+		height: 325px;
+	}
+
+	#manifesto .chapter {
+		display: none;
+	}
+
+	#offerings .column small, #offerings .column-end small {
+	    font-size: 10px;
+	}
+
+} /* end max-width 1200px */
+
+
+/* start max-width 1050px */
+@media screen and (max-width: 1050px) {
+	#products div:first-child {
+    	margin-left: 7%; 
+	}
+
+	#products p {
+		font-size: 12px;
+	}
+
+	#customers p {
+	    line-height: 26px;
+	}
+
+	.quotes h3 {
+		font-size: 18px;
+	}
+
+	#manifesto {
+		height: 400px;
+	}
+
+	#manifesto p {
+		height: 50px;
+	}
+	
+} /* end max-width 1050px */
+
+
+/* start max-width 900px*/
+@media screen and (max-width: 900px) {
+	header {
+		margin-bottom: 0;
+	}
+
+	header h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+	
+	#products div {
+	    box-sizing: border-box;
+	    display: inline-block;
+	    float: none;   
+	    margin: 2% 1%;
+	    padding: 15px 20px;
+	    width: 27%;
+	}
+
+	#products div:first-child {
+    	margin-left: 0; 
+	}
+
+	.column, .column-end {
+	    float: none; 
+	    width: 75%;
+	    margin: 0 auto;
+	}
+	
+	.column-end div:first-child {
+		clear: left;
+	}
+	
+	#customers p{
+		font-size: 18px;
+	}
+
+	#manifesto,
+	#manifesto + hr,
+	#rework + hr {
+		display: none;
+	}
+
+	.rework, .offerings {
+		display: none;
+	}
+} /* end max-width 900px */
+
+
+/* start max-width 750px*/
+@media screen and (max-width: 750px) {
+	#offerings {
+		display: none;
+	}
+
+	.quotes div {
+		font-size: 16px;
+	}
+}/* end max-width 750px */
+
+
+/* start max-width 700px */
+@media screen and (max-width: 675px) {
+	nav ul {
+		padding: 0;
+	}	
+
+	#products {
+	    height: auto;
+	}
+
+	#products div {
+	 	display: block;
+	    margin: 10px auto !important;
+	    width: 50%;
+	 }
+}/* end max-width 700px */
+
+
+/* start max-width 600px */
+@media screen and (max-width: 600px) {
+	#customers h1, 
+	#manifesto h1, 
+	#rework h1, 
+	#offerings h1 {
+		font-size: 24px;
+	}
+
+	header h1 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	header h2 {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+
+	#rework {
+		height: auto;
+	}
+
+	.book {
+		float: none;
+		text-align: center;
+	}
+
+	.quotes div {
+		margin-top: 0;
+	}
+
+	.quotes p {
+		margin-bottom: 5px;
+	}
+} /* end max-width 600px */
